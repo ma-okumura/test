@@ -1,0 +1,12 @@
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+
+#train: /content/drive/MyDrive/sumikko/train/
+#val: /content/drive/MyDrive/summikko/val/
+train: C:\Users\72805\anomaly\kasumi\origin\YOLO\train
+val: C:\Users\72805\anomaly\kasumi\origin\YOLO\validation
+
+# number of classes
+nc: 3
+
+# class names
+names: ['packing', 'cutline', 'label']
